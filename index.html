@@ -59,7 +59,7 @@ function guardar() {
   let id = ref.key;
 
   // ⚠️ POR AHORA LOCAL (luego lo cambiamos)
-  let link = "https://ramisrael.github.io/INFOMEDICA/" + id;
+  let link = "https://ramisrael.github.io/INFOMEDICA/perfil.html?id=" + id;
 
   let qrURL = "https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=" + encodeURIComponent(link);
 
